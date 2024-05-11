@@ -2,17 +2,20 @@
 
 import React from 'react'
 import './styling/listTodo.css'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { deleteTodo } from '@/app/redux/slice'
 
 
 function ListTodo() {
     const todoData = useSelector((data)=>data.todo)
+    const dispatch = useDispatch()
     console.log(todoData)
     const handleUpdate = (id) => {
         console.log(id);
       };
       const handleDelete = (id) => {
         console.log(id);
+        dispatch(deleteTodo(id))
       };
   return (
     <div className='data-todo'>
