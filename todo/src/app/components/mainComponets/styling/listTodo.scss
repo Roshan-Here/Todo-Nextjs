@@ -35,4 +35,23 @@
         margin-left: 10px;
         cursor: pointer;
       }
+      .todo-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .todo-card h3 {
+        margin-top: 0;
+      }
+      
+      .todo-card textarea {
+        width: 100%;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        resize: none;
+      }
+      
 }

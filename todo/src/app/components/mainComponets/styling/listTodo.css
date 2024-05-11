@@ -35,4 +35,20 @@
   padding: 5px 10px;
   margin-left: 10px;
   cursor: pointer;
+}
+.data-todo .todo-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.data-todo .todo-card h3 {
+  margin-top: 0;
+}
+.data-todo .todo-card textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: none;
 }/*# sourceMappingURL=listTodo.css.map */
