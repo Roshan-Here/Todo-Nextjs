@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  background-color: azure;
+  min-height: 30px;
+}
+.navbar li {
+  list-style-type: none;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}/*# sourceMappingURL=navbar.css.map */

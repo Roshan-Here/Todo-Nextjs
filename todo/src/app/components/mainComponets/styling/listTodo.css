@@ -1,0 +1,38 @@
+.data-todo {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.data-todo h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.data-todo ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.data-todo li {
+  margin-bottom: 5px;
+}
+.data-todo .update-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.data-todo .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=listTodo.css.map */

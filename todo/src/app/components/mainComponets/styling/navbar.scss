@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    background-color: azure;
+    min-height: 30px;
+    li{
+        list-style-type: none;
+        color:black;
+        font-size: 26px;
+        font-weight:bold;
+        // margin-left: 25px;
+    }
+}
